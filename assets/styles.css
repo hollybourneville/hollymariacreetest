@@ -1,0 +1,86 @@
+*{
+	margin:0;
+	padding:0;
+	border:none;
+	list-style-type: none;
+}
+body{
+	background-image:url(back-top.gif);
+	background-repeat:repeat-x;
+	background-color: #eee;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+.wrap{
+	width: 640px;
+	margin:auto;
+}
+
+/*----------------------head section------------------*/
+
+header{
+	height:110px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.logo{
+	width: 230px;
+	height:23px;
+	background-image:url(craig-earl-photography.gif);
+}
+
+.nav{
+	width: 80px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+.nav li a{
+	font-size: 12px;
+	color: white;
+	text-decoration: none;
+}
+.nav li a:hover{
+	color: rgb(0,174,255);
+}
+/*----------------------works section------------------*/
+.works{
+	display: flex;
+}
+
+.works>li{
+	flex: 0 0 160px;
+	
+}
+.works>li>a{
+	display: block;
+	height: 368px;
+	font-size: 0;
+}
+
+.works>li>a:hover{
+	background-position: right;
+}
+.panel1{
+	background-image: url(bands.jpg);
+}
+.panel2{
+	background-image: url(everyday.jpg);
+}
+.panel3{
+	background-image: url(landscape.jpg);
+}
+.panel4{
+	background-image: url(people.jpg);
+}
+
+/*----------------------text section------------------*/
+.text{
+
+	margin-top:20px;
+	font-size:18px;
+	color:#999;
+	text-align:center;
+
+}
